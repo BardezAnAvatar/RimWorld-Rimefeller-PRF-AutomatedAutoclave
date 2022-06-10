@@ -56,6 +56,9 @@
         <compClass>CompHeatPusherPowered</compClass>
         <heatPerSecond>15</heatPerSecond>         <!-- Vanilla stove create 5 -->
       </li>
+      <li Class="ProjectRimFactory.Common.CompProperties_CompOutputAdjustable"> <!-- toggle the output tile -->
+        <SupportDiagonal>true</SupportDiagonal>
+      </li>
       <li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
         <!-- Speed Settings -->
         <floatrange_SpeedFactor>1~4</floatrange_SpeedFactor>
