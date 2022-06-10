@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>CureComposite</defName>
+    <label>Cure Synthamide Composite</label>
+    <description>Use heat and pressure to cure uncured composite.</description>
+    <jobString>Curing</jobString>
+    <effectWorking>Cook</effectWorking>
+    <workSkill>Cooking</workSkill>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <workAmount>30000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UncuredComposite</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>UncuredComposite</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <FiberComposite>50</FiberComposite>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CurePlasteel</defName>
+    <label>Cure Plasteel</label>
+    <description>Use heat and pressure to cure uncured plasteel.</description>
+    <jobString>Curing</jobString>
+    <effectWorking>Cook</effectWorking>
+    <workSkill>Cooking</workSkill>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <workAmount>30000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UncuredPlasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>UncuredPlasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Plasteel>50</Plasteel>
+    </products>
+  </RecipeDef>
+
+</Defs>
