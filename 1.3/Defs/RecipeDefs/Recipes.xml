@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <!-- 
+    Note on workAmount: 
+    Work is 1 second real-world. Per Wiki, 1 day is 1000 ticks. Autoclave requires 12 hours to run, so ... 500 work, no?
+    https://rimworldwiki.com/wiki/Work_To_Make
+   -->
 
   <RecipeDef>
-    <defName>CureComposite</defName>
+    <defName>Autoclave_CureSynthamideComposite</defName>
     <label>Cure Synthamide Composite</label>
-    <description>Use heat and pressure to cure uncured composite.</description>
+    <description>Use heat and pressure to cure uncured synthamide composite</description>
     <jobString>Curing</jobString>
     <effectWorking>Cook</effectWorking>
     <workSkill>Cooking</workSkill>
-    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-    <workAmount>30000</workAmount>
+    <workAmount>500</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -32,15 +37,15 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>CurePlasteel</defName>
+    <defName>Autoclave_CurePlasteel</defName>
     <label>Cure Plasteel</label>
-    <description>Use heat and pressure to cure uncured plasteel.</description>
+    <description>Use heat and pressure to cure uncured plasteel</description>
     <jobString>Curing</jobString>
     <effectWorking>Cook</effectWorking>
     <workSkill>Cooking</workSkill>
-    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-    <workAmount>30000</workAmount>
+    <workAmount>500</workAmount>
     <ingredients>
       <li>
         <filter>
