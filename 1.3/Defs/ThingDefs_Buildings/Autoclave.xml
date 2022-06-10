@@ -30,9 +30,9 @@
     </statBases>
     <costList>
       <PRF_RoboticArm>2</PRF_RoboticArm>
+      <PRF_ElectronicChip_I>4</PRF_ElectronicChip_I>
       <PRF_MachineFrame_III>1</PRF_MachineFrame_III>
       <Plasteel>10</Plasteel>
-      <PRF_ElectronicChip_I>4</PRF_ElectronicChip_I>
       <Steel>150</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
