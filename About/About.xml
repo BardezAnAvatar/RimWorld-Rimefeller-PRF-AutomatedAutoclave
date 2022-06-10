@@ -23,5 +23,5 @@
         <li>spdskatr.projectrimfactory</li>
         <li>Dubwise.Rimefeller</li>
     </loadAfter>
-    <description>PRF Revived-style automated autoclave for automating Rimefeller's process for curing plasteel and synthamide composite.</description>
+    <description>Project RimFactory Revived expansion that automates Rimefeller's autoclave; curing plasteel and synthamide composite without pawn input/output.</description>
 </ModMetaData>
