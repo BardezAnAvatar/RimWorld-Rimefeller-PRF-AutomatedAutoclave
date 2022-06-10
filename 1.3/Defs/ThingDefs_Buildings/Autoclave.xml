@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-  <ThingDef ParentName="PRF_IndustrialBase">
+  <ThingDef ParentName="PRF_AssemblerBase">
     <defName>PRFAutoclave</defName>
     <label>Automated Autoclave</label>
     <description>An automated machine that bakes uncured plasteel or synthamide composite into the final product</description>
@@ -85,6 +84,12 @@
       <li>SynthamideCompositeProduction</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <modExtensions>
+      <li Class="ProjectRimFactory.SAL3.Exposables.AssemblerDefModExtension">
+        <drawStatus>true</drawStatus>
+        <doEffect>false</doEffect>
+      </li>
+    </modExtensions>
   </ThingDef>
 
 </Defs>
