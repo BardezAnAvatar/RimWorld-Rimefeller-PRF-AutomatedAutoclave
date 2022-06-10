@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <name>Rimefeller PRF Automated Autoclave</name>
+    <packageId>malkav73.autoclave</packageId>
+    <author>malkav73</author>
+    <url>https://steamcommunity.com/sharedfiles/filedetails/?id=2061940244</url>
+    <supportedVersions>
+        <li>1.1</li>
+        <li>1.2</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>spdskatr.projectrimfactory</packageId>
+            <displayName>Project RimFactory Revived</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2033979700</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>Dubwise.Rimefeller</packageId>
+            <displayName>Rimefeller</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/1321849735</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>spdskatr.projectrimfactory</li>
+        <li>Dubwise.Rimefeller</li>
+    </loadAfter>
+    <description>When PRF Revived added an auto-fermenter for automating the beermaking process, I realized it could be altered into an automated autoclave for automating Rimefeller's process for curing plasteel and composite.
+    </description>
+</ModMetaData>

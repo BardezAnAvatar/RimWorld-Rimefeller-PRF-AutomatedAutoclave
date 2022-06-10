@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>malkav73.autoclave</identifier>
+    <version>1.2.1.1</version>
+    <dependencies>
+        <li>spdskatr.projectrimfactory</li>
+        <li>Dubwise.Rimefeller</li>
+    </dependencies>
+    <showCrossPromotions>true</showCrossPromotions>
+</Manifest>
