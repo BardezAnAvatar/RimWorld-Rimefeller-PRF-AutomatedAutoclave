@@ -34,6 +34,9 @@
     <products>
       <FiberComposite>50</FiberComposite>
     </products>
+    <recipeUsers>
+      <li>PRFAutoclave</li>
+    </recipeUsers>
   </RecipeDef>
 
   <RecipeDef>
@@ -64,6 +67,9 @@
     <products>
       <Plasteel>50</Plasteel>
     </products>
+    <recipeUsers>
+      <li>PRFAutoclave</li>
+    </recipeUsers>
   </RecipeDef>
 
 </Defs>
