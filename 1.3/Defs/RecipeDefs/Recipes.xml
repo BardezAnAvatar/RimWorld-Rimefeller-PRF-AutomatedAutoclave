@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- 
-    Note on workAmount: 
-    Work is 1 second real-world. Per Wiki, 1 day is 1000 ticks. Autoclave requires 12 hours to run, so ... 500 work, no?
+    Note on workAmount:
+    Work amount is 60 ticks or work per 1 in-game second. Per Wiki, 1 day is 1000 seconds.
+    Autoclave requires 12 in-game hours to run, so ... (500 seconds * 60) work, no?
     https://rimworldwiki.com/wiki/Work_To_Make
    -->
 
@@ -15,7 +16,7 @@
     <workSkill>Cooking</workSkill>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-    <workAmount>500</workAmount>
+    <workAmount>30000</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -48,7 +49,7 @@
     <workSkill>Cooking</workSkill>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-    <workAmount>500</workAmount>
+    <workAmount>30000</workAmount>
     <ingredients>
       <li>
         <filter>
