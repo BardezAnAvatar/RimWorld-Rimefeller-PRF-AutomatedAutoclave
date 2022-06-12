@@ -19,6 +19,9 @@
     <castEdgeShadows>false</castEdgeShadows>
     <pathCost>60</pathCost>
     <size>(2,2)</size>
+    <inspectorTabs>
+      <li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->
+    </inspectorTabs>
     <statBases>
       <WorkToBuild>18000</WorkToBuild>
       <Mass>100</Mass>
@@ -53,6 +56,17 @@
       </li>
       <li Class="ProjectRimFactory.Common.CompProperties_CompOutputAdjustable"> <!-- toggle the output tile -->
         <SupportDiagonal>true</SupportDiagonal>
+      </li>
+      <li Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting">
+        <!-- Speed Settings -->
+        <floatrange_SpeedFactor>1~4</floatrange_SpeedFactor>
+        <powerPerStepSpeed>1000</powerPerStepSpeed>
+        <powerStepFactor>1</powerStepFactor>
+        <!-- Range Settings -->
+        <floatrange_Range>1~3</floatrange_Range>
+        <powerPerStepRange>125</powerPerStepRange>
+        <allowManualRangeTypeChange>true</allowManualRangeTypeChange>
+        <rangeType>ProjectRimFactory.Common.RectRange</rangeType>
       </li>
     </comps>
     <recipes>
