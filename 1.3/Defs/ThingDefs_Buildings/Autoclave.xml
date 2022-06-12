@@ -20,7 +20,6 @@
     <pathCost>60</pathCost>
     <size>(2,2)</size>
     <inspectorTabs>
-      <li>ProjectRimFactory.SAL3.UI.ITab_SAL3Bills</li>
       <li>ProjectRimFactory.Common.ITab_PowerSupply</li>      <!-- Power boost -->
     </inspectorTabs>
     <statBases>
@@ -35,7 +34,7 @@
       <PRF_RoboticArm>2</PRF_RoboticArm>
       <PRF_ElectronicChip_I>4</PRF_ElectronicChip_I>
       <PRF_MachineFrame_III>1</PRF_MachineFrame_III>
-      <Plasteel>10</Plasteel>
+      <Plasteel>50</Plasteel>
       <Steel>150</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
@@ -89,7 +88,18 @@
         <drawStatus>true</drawStatus>
         <doEffect>false</doEffect>
       </li>
+      <li Class="ProjectRimFactory.Common.ModExtension_Skills">
+        <SkillUsage>ThisOverrides</SkillUsage>
+        <BaseSkill>10</BaseSkill>
+        <skills>
+          <li>
+            <def>Cooking</def>
+            <levelInt>10</levelInt>
+          </li>
+        </skills>
+      </li>
     </modExtensions>
+    <staticSunShadowHeight>1</staticSunShadowHeight>
   </ThingDef>
 
 </Defs>
