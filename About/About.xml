@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Rimefeller PRF Automated Autoclave</name>
+    <name>Rimefeller PRF Automated Autoclave for 1.3</name>
     <packageId>bardez.automated.autoclave</packageId>
     <author>bardez</author>
     <!-- <url></url> -->
