@@ -1,5 +1,11 @@
 # RimWorld: Rimefeller + Project RimFactory Automated Autoclave
-Source of my attempt to patch Rimefeller + Project RimFactory Automated Autoclave into RimWorld 1.3/1.4
+A patch for Rimefeller + Project RimFactory to yield an Automated Autoclave into RimWorld.
+
+For versions:
+- 1.3
+- 1.4
+- 1.5
+- 1.6
 
 # Inspiration
 Original mod: https://steamcommunity.com/sharedfiles/filedetails/?id=2061940244
