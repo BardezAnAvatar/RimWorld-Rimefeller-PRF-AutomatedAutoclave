@@ -71,8 +71,8 @@
       </li>
     </comps>
     <recipes>
-      <li>Autoclave_CureSynthamideComposite</li>
-      <li>Autoclave_CurePlasteel</li>
+      <li>RPRFAAC_Autoclave_CureSynthamideComposite</li>
+      <li>RPRFAAC_Autoclave_CurePlasteel</li>
     </recipes>
     <rotatable>False</rotatable>
     <designationCategory>Rimefeller</designationCategory>

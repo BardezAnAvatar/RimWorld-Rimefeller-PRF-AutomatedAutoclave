@@ -8,7 +8,7 @@
    -->
 
   <RecipeDef>
-    <defName>Autoclave_CureSynthamideComposite</defName>
+    <defName>RPRFAAC_Autoclave_CureSynthamideComposite</defName>
     <label>Cure Synthamide Composite</label>
     <description>Use heat and pressure to cure uncured synthamide composite</description>
     <jobString>Curing</jobString>
@@ -41,7 +41,7 @@
   </RecipeDef>
 
   <RecipeDef>
-    <defName>Autoclave_CurePlasteel</defName>
+    <defName>RPRFAAC_Autoclave_CurePlasteel</defName>
     <label>Cure Plasteel</label>
     <description>Use heat and pressure to cure uncured plasteel</description>
     <jobString>Curing</jobString>
