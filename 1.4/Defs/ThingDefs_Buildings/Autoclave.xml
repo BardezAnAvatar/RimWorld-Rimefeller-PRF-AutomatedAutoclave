@@ -6,7 +6,7 @@
     <description>An automated machine that bakes uncured plasteel or synthamide composite into the final product</description>
     <thingClass>ProjectRimFactory.SAL3.Things.Assemblers.Building_SimpleAssembler</thingClass>
     <graphicData>
-      <texPath>aautoclave</texPath>
+      <texPath>RPRFAAC/aautoclave</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(3,3)</drawSize>
     </graphicData>
