@@ -9,7 +9,7 @@
     <graphicData>
       <texPath>RPRFAAC/aautoclave</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(3.5,3.5)</drawSize>
     </graphicData>
     <category>Building</category>
     <tickerType>Normal</tickerType>
@@ -70,10 +70,6 @@
         <rangeType>ProjectRimFactory.Common.RectRange</rangeType>
       </li>
     </comps>
-    <recipes>
-      <li>Autoclave_CureSynthamideComposite</li>
-      <li>Autoclave_CurePlasteel</li>
-    </recipes>
     <rotatable>False</rotatable>
     <designationCategory>Rimefeller</designationCategory>
     <building>
